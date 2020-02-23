@@ -1,26 +1,20 @@
 (function (window) {
 
-  var REDIRECT_URI = 'https://yannickglt.github.io/alfred-slack/';
+  var REDIRECT_URI = 'https://wesleylancel.github.io/alfred-slack/';
   var SCOPE = [
     'channels:history',
-    'channels:write',
     'channels:read',
-    'chat:write:bot',
-    'chat:write:user',
+    'conversations:history',
+    'conversations:read',
     'groups:history',
     'groups:read',
-    'groups:write',
-    'files:read',
-    'files:write:user',
     'im:history',
     'im:read',
-    'im:write',
-    'search:read',
+    'mpim:history',
+    'mpim:read',
     'stars:read',
     'team:read',
-    'users.profile:write',
     'users:read',
-    'users:write'
   ];
   var OAUTH_URL = 'https://slack.com/oauth/authorize?client_id=__CLIENT_ID__&scope=__SCOPE__&team=__TEAM__&redirect_uri=__REDIRECT_URI__';
 
