@@ -4,8 +4,6 @@
   var SCOPE = [
     'channels:history',
     'channels:read',
-    'conversations:history',
-    'conversations:read',
     'groups:history',
     'groups:read',
     'im:history',
